@@ -7,8 +7,10 @@ registerBlockType('wpaffiliateblocks/product-box', {
   icon: 'welcome-learn-more',
   category: 'common',
   attributes: {
-    productTitle: { type: 'string' },
-    productBuyText: { type: 'string' },
+    title: { type: 'string' },
+    image: { type: 'string' },
+    buyText: { type: 'string' },
+    link: { type: 'string' },
   },
   edit: ProductBox,
   save: () => null,
