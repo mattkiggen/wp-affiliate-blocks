@@ -9,6 +9,7 @@ registerBlockType('wpaffiliateblocks/product-box', {
   attributes: {
     title: { type: 'string' },
     image: { type: 'string' },
+    features: { type: 'array' },
     buyText: { type: 'string' },
     link: { type: 'string' },
   },
